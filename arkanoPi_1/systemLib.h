@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <sys/time.h>
-//s#include <wiringPi.h>
+//#include <wiringPi.h>
 #include "pseudoWiringPi.h"
 
 #include "kbhit.h" // para poder detectar teclas pulsadas sin bloqueo y leer las teclas pulsadas
@@ -20,7 +20,6 @@
 
 #define CLK_MS 					1
 
-// ATENCION: Valores a modificar por el alumno
 // INTERVALO DE GUARDA ANTI-REBOTES
 #define	DEBOUNCE_TIME			250
 #define TIMEOUT_ACTUALIZA_JUEGO 2000
@@ -30,14 +29,12 @@
 //	which is hiding some of that to make life simple.
 
 // CLAVES PARA MUTEX
-// ATENCION: Valores a modificar por el alumno
 #define	KEYBOARD_KEY		0
 #define	SYSTEM_FLAGS_KEY	1
 #define	MATRIX_KEY			2
 #define	STD_IO_BUFFER_KEY	3
 
 // Distribucion de pines GPIO empleada para el teclado y el display
-// ATENCION: Valores a modificar por el alumno
 #define GPIO_KEYBOARD_COL_1 	00
 #define GPIO_KEYBOARD_COL_2 	01
 #define GPIO_KEYBOARD_COL_3 	02
@@ -60,7 +57,6 @@
 #define GPIO_LED_DISPLAY_ROW_7	28
 
 // FLAGS FSM CONTROL DE SERPIENTE Y GESTION JUEGO
-// ATENCION: Valores a modificar por el alumno
 #define FLAG_MOV_ARRIBA 	0x01
 #define FLAG_MOV_ABAJO		0x02
 #define FLAG_MOV_DERECHA 	0x04

@@ -7,7 +7,6 @@
 #include "tmr.h"
 
 // REFRESCO DISPLAY
-// ATENCION: Valor a modificar por el alumno
 #define TIMEOUT_COLUMNA_DISPLAY 60
 
 #define NUM_PINES_CONTROL_COLUMNAS_DISPLAY	3
@@ -15,7 +14,6 @@
 #define NUM_FILAS_DISPLAY		7
 
 // FLAGS FSM CONTROL DE EXCITACION DISPLAY
-// ATENCION: Valores a modificar por el alumno
 #define FLAG_TIMEOUT_COLUMNA_DISPLAY 	0x01
 
 enum estados_excitacion_display_fsm {

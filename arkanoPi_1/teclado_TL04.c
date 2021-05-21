@@ -24,7 +24,6 @@ fsm_trans_t fsm_trans_deteccion_pulsaciones[] = {
 //------------------------------------------------------
 
 void InicializaTeclado(TipoTeclado *p_teclado) {
-	// A completar por el alumno...
 
 	printf("Inicializando teclado...\n");
 	fflush(stdout);
@@ -77,7 +76,6 @@ void InicializaTeclado(TipoTeclado *p_teclado) {
 //------------------------------------------------------
 
 void ActualizaExcitacionTecladoGPIO (int columna) {
-	// A completar por el alumno
 
 
 	switch(columna){
