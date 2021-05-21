@@ -1,1 +1,2 @@
 NOMBRE: Samuel | PUNTOS: 12
+NOMBRE: Gonzalo | PUNTOS: 11
