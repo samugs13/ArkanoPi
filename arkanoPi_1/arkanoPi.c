@@ -187,8 +187,6 @@ int main () {
 	fsm_t* display_fsm = fsm_new(DISPLAY_ESPERA_COLUMNA, fsm_trans_excitacion_display, &(led_display));
 
 
-	// A completar por el alumno...
-
 	next = millis();
 	while (1) {
 		fsm_fire (arkanoPi_fsm);
