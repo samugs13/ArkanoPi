@@ -1,7 +1,7 @@
 # Arkano-Pi
 Arkano Pi es un juego desarrollado para la asignatura Sistemas Digitales II, de tercer curso de  Ingeniería de Tecnologías y Servicios de Telecomunicaciones en la UPM.
 
-Teóricamente es un juego para Raspberry Pi con compilador cruzado. Esta versión está virtualizada, de forma que se puede jugar en la terminal ejecutando el fichero ./arkanoPi_1 dentro de la carpeta Debug.
+Teóricamente es un juego para Raspberry Pi con compilador cruzado. Esta versión está virtualizada, de forma que se puede jugar en la terminal ejecutando (tras compilar) el fichero ./arkanoPi_1 dentro de la carpeta Debug.
 
 El juego consiste en una pala, una pelota y 16 ladrillos que habrá que derribar haciendo que la pelota rebote en la pala. Hay que tener en cuenta tres cosas: 
 <li> Cada partida contará con 3 vidas. </li>
