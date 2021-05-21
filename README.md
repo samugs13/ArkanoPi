@@ -1,5 +1,5 @@
-# Arkano-Pi
-Arkano Pi es un juego desarrollado para la asignatura Sistemas Digitales II, de tercer curso de  Ingeniería de Tecnologías y Servicios de Telecomunicaciones en la UPM.
+# ArkanoPi
+ArkanoPi es un juego desarrollado para la asignatura Sistemas Digitales II, de tercer curso de  Ingeniería de Tecnologías y Servicios de Telecomunicaciones en la UPM.
 
 Teóricamente es un juego para Raspberry Pi con compilador cruzado. Esta versión está virtualizada, de forma que se puede jugar en la terminal ejecutando ./arkanoPi_1 dentro de la carpeta Debug.
 
